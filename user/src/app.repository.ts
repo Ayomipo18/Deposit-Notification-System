@@ -3,7 +3,7 @@ import { User } from './app.entity';
 import { usersDb } from './app.db';
 
 @Injectable()
-export class UsersRepository {
+export class AppRepository {
   private readonly users: User[] = usersDb;
 
   save(user: User) {
